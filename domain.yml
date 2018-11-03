@@ -30,6 +30,11 @@ intents:
   - bye
   - canthelp
   - feedback
+  - workpermit_fees
+  - occ_health_card_req
+  - manag_consult_area
+  - who_can_apply_pro_card
+  - licen_diff
 
 slots:
   company_name:
@@ -150,7 +155,17 @@ templates:
   utter_anything_else:
     - text: "Is there anything else I can help you with?"
   utter_encourage_building_bot:
-    - text: Cool, then good luck with your business
+    - text: "Cool, then good luck with your business"
+  utter_workpermit_fees:
+    - text: "It depends on the tipe of the permit.\nFor more detailed infor visit URL http://trakhees.ae/en/Pages/Services.aspx"
+  utter_occ_health_card_req:
+    - text: "The required documents for OHC cards are:\n1. license copy\n2. Photo of the employee"
+  utter_manag_consult_area:
+    - text: "You can choose any area under Trakhees."
+  utter_who_can_apply_pro_card:
+    - text: "The employee can apply for the PRO card only for the companies with the same owner."
+  utter_licen_diff:
+    - text: "LLC companies should have a local partner in the establishment with a percentage of 51% or more and it is a limited libility company with a selected amount of shares. Solo establishment company is a company which has one owner - foreigner (Non-GCC) and a local agent, or it can be owned by a GCC-nationality or UAE citizen without the requirement of a agent. Free Zone company is an establishment which can be owned 100% by a foreigner without the requirement to possess a local party in the license."
 
 actions:
   - utter_greet
@@ -192,3 +207,8 @@ actions:
   - action_store_job
   - action_store_email
   - action_pause
+  - utter_workpermit_fees
+  - utter_occ_health_card_req
+  - utter_manag_consult_area
+  - utter_who_can_apply_pro_card
+  - utter_licen_diff
