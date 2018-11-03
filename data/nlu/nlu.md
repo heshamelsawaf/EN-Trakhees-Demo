@@ -1217,7 +1217,7 @@
 - you suck
 - bots are bad
 - i dont like bots
- - do you have a phone number?
+- do you have a phone number?
 - where do you live?
 - how are akela's cats doing?
 - but I just told you that :(
@@ -1288,6 +1288,79 @@
 - what"s the weather
 - whats the weather in berlin?
 - how's the weather in berlin
+
+## intent:ask_for_licenses_requirments
+- What are the requirements for openning of licenses?
+- What do I need for openning of licenses?
+- I want to know how I can open my licence
+- What do u think of licenses? I'm to open one!
+- Do you know anything about Permits and licenses?
+- I was thinking of getting a license, what are the requirements?
+- Will I need an approval to buy a license?
+- Required Documents for licenses
+- Licenses docs!
+- I want to buy a license
+- Do I need an ID copy when applying for a permit?
+- My TradeName is reserved, Is that ok?
+
+## intent:ask_for_labour_benefits
+- How to know my labour benefits?
+- labour benefits
+- what do I benefit as a labour?!
+- Do u happen to know my labour benefits?
+- I would like to inquire about my labour benefits
+- perks of labour
+- What do you know about labour benefits?
+- How can I evaluate my labour contract?
+- All labour and ememployees benefits
+- Evaluate labour contracts
+- What are my rights as an empolyee
+- Labour function
+
+## intent:complain
+- I have paid the fine but the remark is not removed
+- How can I contact Trakhees complaints office?
+- I would like to make a complaint
+- I am getting this error, how I can fix this error
+- What is Trakhees VAT number
+- I'm suing you
+- I don't like the service
+- I was framed!
+- Complain
+- Complaint!!
+- report
+- I want to report this
+- Something went wrong with my process
+- I would like to talk to a Trakhees complaint employee
+
+## intent:ask_for_selling_licenses_requirments
+- What are the requirements for selling a license?
+- What do I do to sell my license?
+- Sell a FreeZone licnese
+- license ammendment!
+- How to sell a license?
+- I was thinking of selling my license..
+- Will I need an approval to sell a license?
+- Required Documents for selling a license
+- Tell me what to I need to sell my freezone license?
+- Is it possible to sell my license?
+- FZ licnese ammendment form
+- How about selling licenses??
+
+## intent:ask_visa_application_duration
+- When will the visa application get complete?
+- My visa application is taking too long!
+- visa applications duration
+- Do visas applications take long to get extracted?
+- when will I get my visa?
+- Visa status!
+- How many days will it take to get the visa?
+- immigration approval duration
+- Inquiry regarding my visa application form
+- How long exactly does it take to complete visa form?
+- Can you check my visa application status?
+- I would like to track my visa application
+
 
 ## synonym:intent trakhees
 - trakees

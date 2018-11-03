@@ -30,6 +30,11 @@ intents:
   - bye
   - canthelp
   - feedback
+  - ask_for_licenses_requirments
+  - ask_for_labour_benefits
+  - complain
+  - ask_for_selling_licenses_requirments
+  - ask_visa_application_duration
 
 slots:
   company_name:
@@ -66,7 +71,9 @@ templates:
     - text: "Thanks! 👌"
     - text: "Cool, thank you!"
   utter_ask_goal:
-    - text: "Do you want more trakhees in your life? you can talk to our nice customer care team 🧞‍"
+    - text: "So, What can I do for you today? 🧞‍"
+    - text: "How can I help?"
+    - text: "Looking for something?"   
   utter_ask_jobfunction:
     - text: "What's your job? 🕴"
   utter_docu:
@@ -149,11 +156,43 @@ templates:
     - text: "Alright, are you completly new to chatbots?"
   utter_anything_else:
     - text: "Is there anything else I can help you with?"
+    - text: "Anything else?"
+    - text: "If you need anything else, let me know"
   utter_encourage_building_bot:
-    - text: Cool, then good luck with your business
+    - text: "Cool, then good luck with your business"
+  utter_ask_for_licenses_requirments:
+    - text: "
+	* Initial Approval is obtained
+	* TradeName is reserved
+		Required Documents are following: 
+			1- Lease certified (rent) the real estate regulatory authority (except the Palm Dubai Customs/contracts/DP) the experation 					date of the contract has to be not less than 30 days.
+			2- No-Objection Letter from all non-local sponsors who would be in the license ..
+			3- Residential lease for both general managers or/and partners except for citizens of the State (optional)"
+  utter_ask_for_labour_benefits:
+    - text: "On Trakhees website there is an Online fuction for labour contract that contains all labour benefits.
+	     You can visit Trakhees @ http://trakhees.ae/en/"
+  utter_complain:
+    - text: "Kindly contact the Customer relations at +971-4-3636888 or drop an email with your query/complaint at customer.relationship@trk.pcfc.ae"
+  utter_ask_for_selling_licenses_requirments:
+    - text: "To sell Free Zone license you need to apply for license ammendment form online. CLD Services -> License Services -> Amendment_Shareholder
+		The required documents are follwoing:
+			1. Board Resolution from the company
+			2. FZ license amendment Form
+			3. Original License
+			4. Copy of the new manager’s passport +NOC letter (for nonlocal)(in case he/she is not one of the partners).
+			5. NS Approval for the new manager
+			6. Accommodation lease agreement of the Manager/Owner +Electricity Bill
+			7. Amendment to the memorandum of Association duly authenticated by the Notary Public (if mentioned in the MOA except branches)
+			8. Personal Information for the manager"
+  utter_ask_visa_application_duration:
+    - text: "It depends on immigration approval but usually it takes 3 working days"
 
 actions:
   - utter_greet
+  - utter_complain
+  - utter_ask_for_selling_licenses_requirments
+  - utter_ask_visa_application_duration
+  - utter_ask_for_labour_benefits
   - utter_ask_businessmail
   - utter_ask_jobfunction
   - utter_ask_email
@@ -172,6 +211,7 @@ actions:
   - utter_possibilities
   - utter_ask_name
   - utter_ask_whatistrakhees
+  - utter_anything_else
   - utter_noworries
   - utter_ask_whoisit
   - utter_bye
@@ -185,7 +225,7 @@ actions:
   - utter_have_you_used_trakhees_before
   - utter_are_you_new_to_chatbots
   - utter_encourage_building_bot
-  - utter_anything_else
+  - utter_ask_for_licenses_requirments
   - action_chitchat
   - action_store_name
   - action_store_company
