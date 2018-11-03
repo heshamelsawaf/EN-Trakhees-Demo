@@ -17,3 +17,23 @@
 ## story_licen_diff
 * licen_diff
  - utter_licen_diff
+
+## story_trakhees_locations
+* trakhees_locations
+ - utter_trakhees_locations
+
+## story_letter_rta
+* letter_rta
+ - utter_letter_rta
+
+## story_visa_renewal
+* visa_renewal
+ - utter_visa_renewal
+
+## story_receipt_prepaid_account
+* receipt_prepaid_account
+ - utter_receipt_prepaid_account
+
+## story_requirements_add_activity
+* requirements_add_activity
+ - utter_requirements_add_activity

@@ -1289,6 +1289,66 @@
 - whats the weather in berlin?
 - how's the weather in berlin
 
+## intent:trakhees_locations
+ - What are the areas that come under Trakhees
+ - Where do you operate
+ - do you operate in International City
+ - are you exist in Dragon Mart
+ - is Jumera Island under Trakhees
+ - can I have Trakhees in Palm Jumerah
+ - I want to get trakhees in Water Front
+ - I live in Al Furjan, can you help me
+ - Are you in  Dp World Port
+ - do you have any branch in Ibn Batota Mall
+ - where can I find you
+ - I want help, where are you
+ - where does Trakhees operate
+ - where are you in Jumera Island
+ - does Trakhees operate in The garden
+ - can I find you in Palm Deira
+ - where else can I find you
+
+## intent:letter_rta
+ - How to obtain the Letter to RTA
+ - Can you help me to get the letter to RTA
+ - I need a letter to RTA
+ - how to get the letter to RTA
+ - If you can help me to get a letter to RTA
+ - what to do in order to get the letter to RTA
+ - help me to get the letter to RTA
+ - I want the letter for RTA
+
+## intent:visa_renewal
+ - What is the process for a visa renewal
+ - I want to renew my visa
+ - My visa expired
+ - can you help me to renew the visa
+ - what to do to renew my visa
+ - how to renew my visa
+ - I want the details to renew my visa
+ - what to do when my visa expires
+ - my visa not working anymore, it is expired
+
+## intent:receipt_prepaid_account
+ - How can I get the receipt of my pre paid account	
+ - I want to see my receipt
+ - I found unkown purchases
+ - I want my visa receipt
+ - the receipt please
+ - can you help me to get the receipt
+ - I need my visa receipt please
+ - I want the receipt please
+
+## intent:requirements_add_activity
+ - What are the requirements to add activity?
+ - how to add activity
+ - I want to add activity
+ - help me to add activity
+ - what to do to add activity
+ - Help me to add 
+ - what are the documents to add activity
+ - I would like to add activity if possible
+
 ## synonym:intent trakhees
 - trakees
 - trakes
