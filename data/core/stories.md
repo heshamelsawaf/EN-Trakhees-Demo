@@ -167,3 +167,36 @@
 * thank
     - utter_noworries
 
+## Generated Story 8890482640779053213
+* greet
+    - utter_greet
+    - utter_inform_privacypolicy
+    - utter_ask_goal
+* out_of_scope
+    - utter_out_of_scope
+    - utter_possibilities
+* ask_for_licenses_requirments
+    - utter_ask_for_licenses_requirments
+    - utter_anything_else
+* ask_about_vat_number
+    - utter_vat_number
+* ask_for_selling_licenses_requirments
+    - utter_ask_for_selling_licenses_requirments
+    - utter_anything_else
+* ask_howdoing
+    - action_chitchat
+    - utter_ask_goal
+* deny
+    - utter_nohelp
+* complain
+    - utter_complain
+    - utter_ask_feedback
+* enter_data
+    - utter_thumbsup
+    - utter_anything_else
+* out_of_scope
+    - utter_out_of_scope
+    - utter_possibilities
+* bye
+    - utter_bye
+

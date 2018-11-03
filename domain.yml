@@ -266,7 +266,8 @@ actions:
   - utter_occ_health_card_req
   - utter_manag_consult_area
   - utter_who_can_apply_pro_card
-  - utter_licen_diff- utter_licence_place
+  - utter_licen_diff
+  - utter_licence_place
   - utter_pro_card
   - utter_dragon_mart
   - utter_vat_number
