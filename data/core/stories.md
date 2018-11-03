@@ -268,3 +268,24 @@
 * bye
     - utter_bye
 
+## Generated Story 8084686508036647127
+* who_can_apply_pro_card
+    - utter_who_can_apply_pro_card
+* ask_about_pro_card
+    - utter_pro_card
+* ask_about_pro_card
+    - utter_pro_card
+* licen_diff
+    - utter_licen_diff
+* occ_health_card_req
+    - utter_occ_health_card_req
+* manag_consult_area
+    - utter_manag_consult_area
+* trakhees_locations
+    - utter_trakhees_locations
+* manag_consult_area
+    - utter_manag_consult_area
+* ask_for_labour_benefits
+    - utter_ask_for_labour_benefits
+    - utter_anything_else
+
