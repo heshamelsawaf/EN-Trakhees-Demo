@@ -141,3 +141,29 @@
 * bye
     - utter_bye
 
+## Generated Story -8708597255667527521
+* greet
+    - utter_greet
+    - utter_inform_privacypolicy
+    - utter_ask_goal
+* ask_for_labour_benefits
+    - utter_ask_for_labour_benefits
+    - utter_anything_else
+* ask_for_selling_licenses_requirments
+    - utter_ask_for_selling_licenses_requirments
+    - utter_anything_else
+* ask_for_licenses_requirments
+    - utter_ask_for_licenses_requirments
+    - utter_anything_else
+* feedback
+    - utter_great
+    - utter_anything_else
+* complain
+    - utter_complain
+    - utter_ask_feedback
+* enter_data
+    - utter_thumbsup
+    - utter_anything_else
+* thank
+    - utter_noworries
+
