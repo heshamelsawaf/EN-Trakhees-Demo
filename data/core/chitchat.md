@@ -1,5 +1,5 @@
 ## chitchat
-* ask_weather OR ask_builder OR ask_whatspossible OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot
+* ask_weather OR ask_builder OR ask_whatspossible OR ask_howdoing OR ask_whoisit OR ask_whatistrakhees
     - action_chitchat
 
 ## deny ask_whatspossible
@@ -13,10 +13,10 @@
     - utter_greet
     - utter_inform_privacypolicy
     - utter_ask_goal
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatistrakhees
     - action_chitchat
     - utter_ask_goal
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatistrakhees
     - action_chitchat
     - utter_ask_goal
 

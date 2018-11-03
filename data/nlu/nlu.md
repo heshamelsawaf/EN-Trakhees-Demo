@@ -384,7 +384,7 @@
 - adele@gmx.com
 - my name is [marc](name)
 - one trillion dollar
-- I'm a[ full stack develope](jobfunction:full stack developer)r
+- I'm a [full stack developer](jobfunction:full stack developer)
 - moabit@yoga.com
 - it's the [moabit yoga studio](company)
 - my name is [oli miller](name)
@@ -393,7 +393,7 @@
 - 10000 dollars
 - 400 trilion
 - philipp@superphilipp.philipp
-- I'm in [business ](jobfunction)
+- I'm in [business](jobfunction)
 - 5 mln
 - [Alex](name:alex)
 - my name is [loretta meier](name)
@@ -533,11 +533,11 @@
 - I'm the boss
 - 90k
 - Rasa bot
-- i'm[donezo](name)
+- i'm [donezo](name)
 - my function is [to serve butter](jobfunction)
 - [wurst co kg](company)
-- [No company!! ](company)
-- [I am a freelancer ](company)
+- [No company](company)!!
+- [I am a freelancer](company)
 - [Foudner](jobfunction)
 - linda@linda.com
 - i'm in [customer success](jobfunction)
@@ -556,7 +556,7 @@
 - I work for the [new york times](company)
 - I work at the [NYT](company)
 - there is no budget
-- i'm a[ develope](jobfunction)
+- i'm a [developer](jobfunction)
 - lead generation
 - 100000
 - im in [marketing](jobfunction)

@@ -29,6 +29,7 @@ intents:
   - ask_whoisit
   - bye
   - canthelp
+  - feedback
 
 slots:
   company_name:
