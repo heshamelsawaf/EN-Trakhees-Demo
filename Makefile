@@ -20,7 +20,7 @@ clean:
 	rm -rf docs/_build
 	rm -rf models/
 
-all: train-nlu train-core cmdline server
+all: train-nlu train-core
 
 train-nlu:
 	python3 -m rasa_nlu.train -c nlu_config.yml --data data/nlu -o models --fixed_model_name nlu --project trakhees --verbose
@@ -32,5 +32,8 @@ cmdline:
 	python3 -m rasa_core.run -d models/trakhees/dialogue -u models/trakhees/nlu
 
 action-server:
-	python -m rasa_core_sdk.endpoint --actions actions
+	python3 -m rasa_core_sdk.endpoint --actions actions
+
+interactive:
+	python3 -m rasa_core.train   --online -o models/dialogue   -d domain.yml -s data/core   --endpoints endpoints.yml
 
