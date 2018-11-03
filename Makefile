@@ -32,9 +32,8 @@ cmdline:
 	python3 -m rasa_core.run -d models/trakhees/dialogue -u models/trakhees/nlu
 
 action-server:
-	python3 -m rasa_core_sdk.endpoint --actions demo.actions
+	python3 -m rasa_core_sdk.endpoint --actions actions
 
 interactive:
-	python3 -m rasa_core.train --online -d domain.yml -s data/core -o models/trakhees/dialogue --epochs 200 --endpoints endpoints.yml -u models/trakhees/nlu
-
+	python3 -m rasa_core.train   --online -o models/dialogue   -d domain.yml -s data/core   --endpoints endpoints.yml
 
