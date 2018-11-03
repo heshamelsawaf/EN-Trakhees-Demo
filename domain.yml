@@ -40,6 +40,11 @@ intents:
   - manag_consult_area
   - who_can_apply_pro_card
   - licen_diff
+  - ask_about_licence_place
+  - ask_about_pro_card
+  - ask_about_nationality_availability
+  - ask_about_vat_number
+  - ask_about_age
 
 slots:
   company_name:
@@ -201,7 +206,17 @@ templates:
     - text: "The employee can apply for the PRO card only for the companies with the same owner."
   utter_licen_diff:
     - text: "LLC companies should have a local partner in the establishment with a percentage of 51% or more and it is a limited libility company with a selected amount of shares. Solo establishment company is a company which has one owner - foreigner (Non-GCC) and a local agent, or it can be owned by a GCC-nationality or UAE citizen without the requirement of a agent. Free Zone company is an establishment which can be owned 100% by a foreigner without the requirement to possess a local party in the license."
-
+  utter_licence_place:
+    - text: "For freezone licenses, both services are available at trakhees office. For LLC license only license services are available"
+  utter_pro_card:
+    - text: "On Trakhees website there is an Online function for inquiring PRO-card"
+  utter_dragon_mart:
+    - text: "Federal license can be obtained for non chinese for freezone only chinese"
+  utter_vat_number:
+    - text: "Kindly contact the Customer relations at +971-4-3636888 or drop an email with your query at customer.relationship@trk.pcfc.ae"
+  utter_age:
+    - text: "There is no maximum age for applying the visa."
+    
 actions:
   - utter_greet
   - utter_complain
@@ -251,4 +266,8 @@ actions:
   - utter_occ_health_card_req
   - utter_manag_consult_area
   - utter_who_can_apply_pro_card
-  - utter_licen_diff
+  - utter_licen_diff- utter_licence_place
+  - utter_pro_card
+  - utter_dragon_mart
+  - utter_vat_number
+  - utter_age

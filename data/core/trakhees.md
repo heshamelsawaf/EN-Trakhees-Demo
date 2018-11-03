@@ -17,3 +17,23 @@
 ## story_licen_diff
 * licen_diff
  - utter_licen_diff
+
+## query service place
+* ask_about_licence_place
+  - utter_licence_place
+  
+## query pro card
+* ask_about_pro_card
+  - utter_pro_card
+  
+## query dragon mart
+* ask_about_nationality_availability
+  - utter_dragon_mart
+  
+## query VAT number
+* ask_about_vat_number
+  - utter_vat_number
+  
+## query age
+* ask_about_age
+  - utter_age
