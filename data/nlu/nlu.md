@@ -567,34 +567,76 @@
 - I would like to track my visa application
 
 ## intent:ask_about_licence_place
-- where what services place
-- where what license place
-- where what visa place
-- where what places
+- Can I get all services (license and visa) at one place
+- Where can I get all services (license and visa)
+- What is the places of all services (license and visa)
+- Where is all services (license and visa)
+- are all services (license and visa) at one place
+- Is there a place at where I can get all services (license and visa)
+- Would I get all services (license and visa) at one place
+- Is it ok that I get all services (license and visa) at one place
+- Is it available that I get all services (license and visa) at one place
+- At Which place can I get all services (license and visa)
+- Can I get all services at one place
+- Where can I get all services
+- What is the places of all services
+- Where is all services
+- are all services at one place
+- Is there a place at where I can get all services
+- Would I get all services at one place
+- Is it ok that I get all services at one place
+- Is it available that I get all services at one place
+- At Which place can I get all services
 
 ## intent:ask_about_pro_card
-- apply PRO card
-- get PRO card
-- have PRO card
-- How PRO card
+- How to apply for the PRO card
+- How to get the PRO card
+- How to have the PRO card
+- How to own the PRO card
+- Can I apply for the PRO card
+- Can I get the PRO card
+- Can I have the PRO card
+- Can I own the PRO card
+- Is it available to apply for the PRO card
+- Is it available to get the PRO card
+- Is it available to have the PRO card
+- Is it available to own the PRO card
+- What is the steps needed to apply for the PRO card
+- What is the steps needed to get the PRO card
+- What is the steps needed to have the PRO card
+- What is the steps needed to own the PRO card
 
 ## intent:ask_about_nationality_availability
-- dragon mart
-- license dragon mart
-- dragon mart chinese
-- dragon mart non chinese
+- Can I open a license in dragon mart, non chinese
+- Can I open a license in dragon mart, chinese
+- Can I open a license in dragon mart
+- Can I get a license in dragon mart, non chinese
+- Can I get a license in dragon mart, chinese
+- Can I get a license in dragon mart
+- Can I have a license in dragon mart, non chinese
+- Can I have a license in dragon mart, chinese
+- Can I have a license in dragon mart
+- Is it available to open a license in dragon mart, non chinese
+- Is it available to open a license in dragon mart, chinese
+- Is it available to open a license in dragon mart
+- How can I have a license in dragon mart, non chinese
+- How can I have a license in dragon mart, chinese
+- How can I have a license in dragon mart
 
 ## intent:ask_about_vat_number
-- query VAT number
-- what tax
-- customer relations number
-- vcustomer relations mail
+- What is Trakhees VAT number
+- What is Trakhees custom services number
+- What is Trakhees custom services email
+- How can I contact Trakhees custom services
+- Can I contact Trakhees
 
 ## intent:ask_about_age
-- what age
-- max age
-- min age
-- allowed age
+- What is the maximum age for applying the visa
+- What is the minimum age for applying the visa
+- What is the accepted age for applying the visa
+- At what age Can I get the visa
+- When can I get the visa
+- What is the constraints for applying to the visa
 
 ## intent:workpermit_fees
 - What is fees for a workpermit
