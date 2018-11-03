@@ -22,11 +22,11 @@ clean:
 all: train-nlu train-core
 
 train-nlu:
-	python3 -m rasa_nlu.train -c nlu_config.yml --data data/nlu -o models --fixed_model_name nlu --project current --verbose
+	python3 -m rasa_nlu.train -c nlu_config.yml --data data/nlu -o models --fixed_model_name nlu --project trakhees --verbose
 
 train-core:
-	python3 -m rasa_core.train -d domain.yml -s data/core -o models/current/dialogue --epochs 200
+	python3 -m rasa_core.train -d domain.yml -s data/core -o models/trakhees/dialogue --epochs 200
 
 cmdline:
-	python3 -m rasa_core.run -d models/current/dialogue -u models/current/nlu
+	python3 -m rasa_core.run -d models/current/dialogue -u models/trakhees/nlu
 
