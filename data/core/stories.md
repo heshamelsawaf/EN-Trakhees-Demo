@@ -200,3 +200,71 @@
 * bye
     - utter_bye
 
+## Generated Story 391549103743063742
+* greet
+    - utter_greet
+    - utter_inform_privacypolicy
+    - utter_ask_goal
+* trakhees_locations
+    - utter_trakhees_locations
+* enter_data
+    - utter_possibilities
+* trakhees_locations
+    - utter_trakhees_locations
+* enter_data
+    - utter_letter_rta
+* letter_rta
+    - utter_letter_rta
+* receipt_prepaid_account
+    - utter_receipt_prepaid_account
+* thank
+    - utter_noworries
+
+## Generated Story -3372566152964384460
+* greet
+    - utter_greet
+    - utter_inform_privacypolicy
+    - utter_ask_goal
+* ask_visa_application_duration
+    - utter_ask_visa_application_duration
+    - utter_anything_else
+* ask_about_vat_number
+    - utter_vat_number
+    - utter_anything_else
+
+## Generated Story 8403019328156673958
+* ask_for_licenses_requirments
+    - utter_ask_for_licenses_requirments
+    - utter_anything_else
+* receipt_prepaid_account
+    - utter_receipt_prepaid_account
+* requirements_add_activity
+    - utter_requirements_add_activity
+* ask_visa_application_duration
+    - utter_ask_visa_application_duration
+    - utter_anything_else
+* ask_about_licence_place
+    - utter_licence_place
+* letter_rta
+    - utter_letter_rta
+* ask_for_selling_licenses_requirments
+    - utter_ask_for_selling_licenses_requirments
+    - utter_anything_else
+* ask_for_labour_benefits
+    - utter_ask_for_labour_benefits
+    - utter_anything_else
+* ask_whoisit
+    - action_chitchat
+    - utter_ask_goal
+* ask_weather
+    - action_chitchat
+    - utter_ask_goal
+* complain
+    - utter_complain
+    - utter_ask_feedback
+* enter_data
+    - utter_thumbsup
+    - utter_anything_else
+* bye
+    - utter_bye
+

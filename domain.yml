@@ -40,6 +40,11 @@ intents:
   - manag_consult_area
   - who_can_apply_pro_card
   - licen_diff
+  - trakhees_locations
+  - letter_rta
+  - visa_renewal
+  - receipt_prepaid_account
+  - requirements_add_activity
   - ask_about_licence_place
   - ask_about_pro_card
   - ask_about_nationality_availability
@@ -205,7 +210,17 @@ templates:
   utter_who_can_apply_pro_card:
     - text: "The employee can apply for the PRO card only for the companies with the same owner."
   utter_licen_diff:
-    - text: "LLC companies should have a local partner in the establishment with a percentage of 51% or more and it is a limited libility company with a selected amount of shares. Solo establishment company is a company which has one owner - foreigner (Non-GCC) and a local agent, or it can be owned by a GCC-nationality or UAE citizen without the requirement of a agent. Free Zone company is an establishment which can be owned 100% by a foreigner without the requirement to possess a local party in the license."
+    - text: "LLC companies should have a local partner in the establishment with a percentage of 51% or more and it is a limited libility company with a selected amount of shares. Solo establishment company is a company which has one owner - foreigner (Non-GCC) and a local agent, or it can be owned by a GCC-nationality or UAE citizen without the requirement of a agent. Free Zone company is an establishment which can be owned 100% by a foreigner without the requirement to possess a local party in the license."  
+  utter_trakhees_locations:
+    - text: "The LLC license can be obtained at the following locations\n1. International City\n2. Dragon Mart 1 & 2\n3. Ibn Batota Mall\n4. Jumera Island\n5. Discovery Garden\n6. The garden\n7. Palm Jumerah\n8. Palm Deira\n9. Jumeirah Park\n10. Jumeirah Village\n11. Water Front\n12. World Island\n13. Limitless\n14. DownTown Jebel Ali\n15. Al Furjan\n16. Jebel Ali Village\n17. Al Khail Plaza\n18. All dubai custom projects\n19. Dp World Port\n\nand Please following link of Areas Under trakhees below:\nhttp://trakhees.ae/en/cld/Documents/Special%20Development%20Zones%20-%20Trakhees.pdf"
+  utter_letter_rta:
+    - text: "By applying online through Trakhees website"
+  utter_visa_renewal:
+    - text: "You have to submit the below required documents through online TRAKHEES-LD services for Residency Renewal, while each document should be in “JPG” type and less than 100 KP size:\n• Passport Size Photo with white background\n• Coloured Passport copy valid for 6 months.\n• RP Visa Copy\n• Stamped Emirates ID form \n• Renewed Employment Contract\n• Attested Education Certificate (Manager, Director, engineer, doctor, accountant…etc.)\n• Copy valid Medical insurance card/ certificate.\n• Copy of valid Establishment Card."
+  utter_receipt_prepaid_account:
+    - text: "The receipt for all settled payment advices can be obtained trough the online account. Use Finance Online Services->Payment Advice Enquiry Status. And search the transaction. The Debit Note can be downloaded from the Grid"
+  utter_requirements_add_activity:
+    - text: "The following documents are required for add activity. \n\n1. FZ license amendment Form\n2. Original Trade License\n3. EHS Activity form\n4. Third party Approval if required\n5. Amendment to the Memorandum of Association concerning change of activity."
   utter_licence_place:
     - text: "For freezone licenses, both services are available at trakhees office. For LLC license only license services are available"
   utter_pro_card:
@@ -267,6 +282,11 @@ actions:
   - utter_manag_consult_area
   - utter_who_can_apply_pro_card
   - utter_licen_diff
+  - utter_trakhees_locations
+  - utter_letter_rta
+  - utter_visa_renewal
+  - utter_receipt_prepaid_account
+  - utter_requirements_add_activity
   - utter_licence_place
   - utter_pro_card
   - utter_dragon_mart
