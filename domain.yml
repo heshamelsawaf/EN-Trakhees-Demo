@@ -30,6 +30,11 @@ intents:
   - bye
   - canthelp
   - feedback
+  - ask_for_licenses_requirments
+  - ask_for_labour_benefits
+  - complain
+  - ask_for_selling_licenses_requirments
+  - ask_visa_application_duration
   - workpermit_fees
   - occ_health_card_req
   - manag_consult_area
@@ -40,6 +45,11 @@ intents:
   - visa_renewal
   - receipt_prepaid_account
   - requirements_add_activity
+  - ask_about_licence_place
+  - ask_about_pro_card
+  - ask_about_nationality_availability
+  - ask_about_vat_number
+  - ask_about_age
 
 slots:
   company_name:
@@ -76,7 +86,9 @@ templates:
     - text: "Thanks! 👌"
     - text: "Cool, thank you!"
   utter_ask_goal:
-    - text: "Do you want more trakhees in your life? you can talk to our nice customer care team 🧞‍"
+    - text: "So, What can I do for you today? 🧞‍"
+    - text: "How can I help?"
+    - text: "Looking for something?"   
   utter_ask_jobfunction:
     - text: "What's your job? 🕴"
   utter_docu:
@@ -159,8 +171,36 @@ templates:
     - text: "Alright, are you completly new to chatbots?"
   utter_anything_else:
     - text: "Is there anything else I can help you with?"
+    - text: "Anything else?"
+    - text: "If you need anything else, let me know"
   utter_encourage_building_bot:
     - text: "Cool, then good luck with your business"
+  utter_ask_for_licenses_requirments:
+    - text: "
+	* Initial Approval is obtained
+	* TradeName is reserved
+		Required Documents are following: 
+			1- Lease certified (rent) the real estate regulatory authority (except the Palm Dubai Customs/contracts/DP) the experation 					date of the contract has to be not less than 30 days.
+			2- No-Objection Letter from all non-local sponsors who would be in the license ..
+			3- Residential lease for both general managers or/and partners except for citizens of the State (optional)"
+  utter_ask_for_labour_benefits:
+    - text: "On Trakhees website there is an Online fuction for labour contract that contains all labour benefits.
+	     You can visit Trakhees @ http://trakhees.ae/en/"
+  utter_complain:
+    - text: "Kindly contact the Customer relations at +971-4-3636888 or drop an email with your query/complaint at customer.relationship@trk.pcfc.ae"
+  utter_ask_for_selling_licenses_requirments:
+    - text: "To sell Free Zone license you need to apply for license ammendment form online. CLD Services -> License Services -> Amendment_Shareholder
+		The required documents are follwoing:
+			1. Board Resolution from the company
+			2. FZ license amendment Form
+			3. Original License
+			4. Copy of the new manager’s passport +NOC letter (for nonlocal)(in case he/she is not one of the partners).
+			5. NS Approval for the new manager
+			6. Accommodation lease agreement of the Manager/Owner +Electricity Bill
+			7. Amendment to the memorandum of Association duly authenticated by the Notary Public (if mentioned in the MOA except branches)
+			8. Personal Information for the manager"
+  utter_ask_visa_application_duration:
+    - text: "It depends on immigration approval but usually it takes 3 working days"
   utter_workpermit_fees:
     - text: "It depends on the tipe of the permit.\nFor more detailed infor visit URL http://trakhees.ae/en/Pages/Services.aspx"
   utter_occ_health_card_req:
@@ -170,8 +210,7 @@ templates:
   utter_who_can_apply_pro_card:
     - text: "The employee can apply for the PRO card only for the companies with the same owner."
   utter_licen_diff:
-    - text: "LLC companies should have a local partner in the establishment with a percentage of 51% or more and it is a limited libility company with a selected amount of shares. Solo establishment company is a company which has one owner - foreigner (Non-GCC) and a local agent, or it can be owned by a GCC-nationality or UAE citizen without the requirement of a agent. Free Zone company is an establishment which can be owned 100% by a foreigner without the requirement to possess a local party in the license."
-  
+    - text: "LLC companies should have a local partner in the establishment with a percentage of 51% or more and it is a limited libility company with a selected amount of shares. Solo establishment company is a company which has one owner - foreigner (Non-GCC) and a local agent, or it can be owned by a GCC-nationality or UAE citizen without the requirement of a agent. Free Zone company is an establishment which can be owned 100% by a foreigner without the requirement to possess a local party in the license."  
   utter_trakhees_locations:
     - text: "The LLC license can be obtained at the following locations\n1. International City\n2. Dragon Mart 1 & 2\n3. Ibn Batota Mall\n4. Jumera Island\n5. Discovery Garden\n6. The garden\n7. Palm Jumerah\n8. Palm Deira\n9. Jumeirah Park\n10. Jumeirah Village\n11. Water Front\n12. World Island\n13. Limitless\n14. DownTown Jebel Ali\n15. Al Furjan\n16. Jebel Ali Village\n17. Al Khail Plaza\n18. All dubai custom projects\n19. Dp World Port\n\nand Please following link of Areas Under trakhees below:\nhttp://trakhees.ae/en/cld/Documents/Special%20Development%20Zones%20-%20Trakhees.pdf"
   utter_letter_rta:
@@ -182,10 +221,23 @@ templates:
     - text: "The receipt for all settled payment advices can be obtained trough the online account. Use Finance Online Services->Payment Advice Enquiry Status. And search the transaction. The Debit Note can be downloaded from the Grid"
   utter_requirements_add_activity:
     - text: "The following documents are required for add activity. \n\n1. FZ license amendment Form\n2. Original Trade License\n3. EHS Activity form\n4. Third party Approval if required\n5. Amendment to the Memorandum of Association concerning change of activity."
-
-
+  utter_licence_place:
+    - text: "For freezone licenses, both services are available at trakhees office. For LLC license only license services are available"
+  utter_pro_card:
+    - text: "On Trakhees website there is an Online function for inquiring PRO-card"
+  utter_dragon_mart:
+    - text: "Federal license can be obtained for non chinese for freezone only chinese"
+  utter_vat_number:
+    - text: "Kindly contact the Customer relations at +971-4-3636888 or drop an email with your query at customer.relationship@trk.pcfc.ae"
+  utter_age:
+    - text: "There is no maximum age for applying the visa."
+    
 actions:
   - utter_greet
+  - utter_complain
+  - utter_ask_for_selling_licenses_requirments
+  - utter_ask_visa_application_duration
+  - utter_ask_for_labour_benefits
   - utter_ask_businessmail
   - utter_ask_jobfunction
   - utter_ask_email
@@ -204,6 +256,7 @@ actions:
   - utter_possibilities
   - utter_ask_name
   - utter_ask_whatistrakhees
+  - utter_anything_else
   - utter_noworries
   - utter_ask_whoisit
   - utter_bye
@@ -217,7 +270,7 @@ actions:
   - utter_have_you_used_trakhees_before
   - utter_are_you_new_to_chatbots
   - utter_encourage_building_bot
-  - utter_anything_else
+  - utter_ask_for_licenses_requirments
   - action_chitchat
   - action_store_name
   - action_store_company
@@ -234,3 +287,8 @@ actions:
   - utter_visa_renewal
   - utter_receipt_prepaid_account
   - utter_requirements_add_activity
+  - utter_licen_diff- utter_licence_place
+  - utter_pro_card
+  - utter_dragon_mart
+  - utter_vat_number
+  - utter_age
