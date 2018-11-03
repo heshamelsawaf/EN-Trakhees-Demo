@@ -287,7 +287,7 @@ actions:
   - utter_visa_renewal
   - utter_receipt_prepaid_account
   - utter_requirements_add_activity
-  - utter_licen_diff- utter_licence_place
+  - utter_licence_place
   - utter_pro_card
   - utter_dragon_mart
   - utter_vat_number
