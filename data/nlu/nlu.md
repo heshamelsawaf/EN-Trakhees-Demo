@@ -942,7 +942,7 @@
 - [places](entity:place) and [names](entity:name)
 - i am interested in [ordinals](entity)
 - amounts of [money](entity)
-- how much [money](entity) 
+- how much [money](entity)
 - [amounts](entity:money)
 - [how long](entity:duration)
 - extracting [durations](entity:duration)
@@ -1330,7 +1330,7 @@
  - my visa not working anymore, it is expired
 
 ## intent:receipt_prepaid_account
- - How can I get the receipt of my pre paid account	
+ - How can I get the receipt of my pre paid account
  - I want to see my receipt
  - I found unkown purchases
  - I want my visa receipt
@@ -1345,7 +1345,7 @@
  - I want to add activity
  - help me to add activity
  - what to do to add activity
- - Help me to add 
+ - Help me to add
  - what are the documents to add activity
  - I would like to add activity if possible
 
@@ -1450,6 +1450,49 @@
 - max age
 - min age
 - allowed age
+
+## intent:workpermit_fees
+- What is fees for a workpermit
+- what are the workpermit fees
+- how much is the work permit fees
+- how much work permit
+- how much do i have to pay for the workpermit
+
+## intent:occ_health_card_req
+- What are the requirements of the occupational health card
+- how can i get an OHC
+- how do i get occupational health
+- how can i get the occupational health card
+- what are the required documents for the OHC
+- what are the documents needed for occupational health card
+- How can i issue an OHC
+- how to issue occupational health card
+- ohc requirements
+
+## intent:manag_consult_area
+- I need management consultant, which area can I choose
+- What areas can I find management consultants in
+- Where can I find management consultants?
+- Where do i need to go for management consultants
+- Which areas provide management consultants
+- How can i find management consultant areas
+
+## intent:who_can_apply_pro_card
+- Does the employee applying for the PRO card has to be under the same license. Or it can be a different license but same owner and manager
+- Who can apply for pro card
+- Should the companies have the same owner in order to apply for pro card?
+- What type of employees can apply for pro card
+- pro card license requirements
+
+## intent:licen_diff
+- Difference between LLC, Sole Establishment, Freezone License
+- What is the difference between llc and sole Establishment
+- difference between llc licenses and sole
+- what's the diffence between sole establishment and llc
+- what is the difference between llc and freezone license
+- difference between sole establishment and freezone
+- What are the different types of licenses
+- What are different company licenses
 
 ## synonym:intent trakhees
 - trakees
