@@ -1361,6 +1361,35 @@
 - Can you check my visa application status?
 - I would like to track my visa application
 
+## intent:ask_about_licence_place
+- where what services place
+- where what license place
+- where what visa place
+- where what places
+
+## intent:ask_about_pro_card
+- apply PRO card
+- get PRO card
+- have PRO card
+- How PRO card
+
+## intent:ask_about_nationality_availability
+- dragon mart
+- license dragon mart
+- dragon mart chinese
+- dragon mart non chinese
+
+## intent:ask_about_vat_number
+- query VAT number
+- what tax
+- customer relations number
+- vcustomer relations mail
+
+## intent:ask_about_age
+- what age
+- max age
+- min age
+- allowed age
 
 ## synonym:intent trakhees
 - trakees
