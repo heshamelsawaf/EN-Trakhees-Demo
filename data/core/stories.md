@@ -289,3 +289,55 @@
     - utter_ask_for_labour_benefits
     - utter_anything_else
 
+## Generated Story -9000055848436658890
+* greet
+    - utter_greet
+    - utter_inform_privacypolicy
+    - utter_ask_goal
+* ask_whatspossible
+    - utter_ask_whatspossible
+* trakhees_locations
+    - utter_trakhees_locations
+* letter_rta
+    - utter_letter_rta
+* visa_renewal
+    - utter_visa_renewal
+* receipt_prepaid_account
+    - utter_receipt_prepaid_account
+* requirements_add_activity
+    - utter_requirements_add_activity
+* ask_for_licenses_requirments
+    - utter_ask_for_licenses_requirments
+    - utter_anything_else
+* ask_for_labour_benefits
+    - utter_ask_for_labour_benefits
+    - utter_anything_else
+* complain
+    - utter_complain
+    - utter_ask_feedback
+* enter_data
+    - utter_thumbsup
+    - utter_anything_else
+* ask_for_selling_licenses_requirments
+    - utter_ask_for_selling_licenses_requirments
+    - utter_anything_else
+* ask_visa_application_duration
+    - utter_ask_visa_application_duration
+    - utter_anything_else
+* licen_diff
+    - utter_licen_diff
+* who_can_apply_pro_card
+    - utter_who_can_apply_pro_card
+* manag_consult_area
+    - utter_manag_consult_area
+* occ_health_card_req
+    - utter_occ_health_card_req
+* workpermit_fees
+    - utter_workpermit_fees
+* workpermit_fees
+    - utter_workpermit_fees
+* ask_about_vat_number
+    - utter_vat_number
+* ask_about_vat_number
+    - utter_vat_number
+
