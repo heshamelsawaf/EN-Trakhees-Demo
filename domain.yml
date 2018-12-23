@@ -15,7 +15,7 @@ entities:
 
 intents:
   - enter_data: {use_entities: false}
-  - mood_confirm
+  - affirm
   - greet
   - human_handoff
   - deny
@@ -50,6 +50,12 @@ intents:
   - ask_about_nationality_availability
   - ask_about_vat_number
   - ask_about_age
+  - ask_to_cancel_visa
+  - freezone_license
+  - company_license
+  - commercial_license
+  - local_company
+  - branch_company
 
 slots:
   company_name:
@@ -88,7 +94,7 @@ templates:
   utter_ask_goal:
     - text: "So, What can I do for you today? 🧞‍"
     - text: "How can I help?"
-    - text: "Looking for something?"   
+    - text: "Looking for something?"
   utter_ask_jobfunction:
     - text: "What's your job? 🕴"
   utter_docu:
@@ -179,7 +185,7 @@ templates:
     - text: "
 	* Initial Approval is obtained
 	* TradeName is reserved
-		Required Documents are following: 
+		Required Documents are following:
 			1- Lease certified (rent) the real estate regulatory authority (except the Palm Dubai Customs/contracts/DP) the experation 					date of the contract has to be not less than 30 days.
 			2- No-Objection Letter from all non-local sponsors who would be in the license ..
 			3- Residential lease for both general managers or/and partners except for citizens of the State (optional)"
@@ -210,7 +216,7 @@ templates:
   utter_who_can_apply_pro_card:
     - text: "The employee can apply for the PRO card only for the companies with the same owner."
   utter_licen_diff:
-    - text: "LLC companies should have a local partner in the establishment with a percentage of 51% or more and it is a limited libility company with a selected amount of shares. Solo establishment company is a company which has one owner - foreigner (Non-GCC) and a local agent, or it can be owned by a GCC-nationality or UAE citizen without the requirement of a agent. Free Zone company is an establishment which can be owned 100% by a foreigner without the requirement to possess a local party in the license."  
+    - text: "LLC companies should have a local partner in the establishment with a percentage of 51% or more and it is a limited libility company with a selected amount of shares. Solo establishment company is a company which has one owner - foreigner (Non-GCC) and a local agent, or it can be owned by a GCC-nationality or UAE citizen without the requirement of a agent. Free Zone company is an establishment which can be owned 100% by a foreigner without the requirement to possess a local party in the license."
   utter_trakhees_locations:
     - text: "The LLC license can be obtained at the following locations\n1. International City\n2. Dragon Mart 1 & 2\n3. Ibn Batota Mall\n4. Jumera Island\n5. Discovery Garden\n6. The garden\n7. Palm Jumerah\n8. Palm Deira\n9. Jumeirah Park\n10. Jumeirah Village\n11. Water Front\n12. World Island\n13. Limitless\n14. DownTown Jebel Ali\n15. Al Furjan\n16. Jebel Ali Village\n17. Al Khail Plaza\n18. All dubai custom projects\n19. Dp World Port\n\nand Please following link of Areas Under trakhees below:\nhttp://trakhees.ae/en/cld/Documents/Special%20Development%20Zones%20-%20Trakhees.pdf"
   utter_letter_rta:
@@ -231,7 +237,69 @@ templates:
     - text: "Kindly contact the Customer relations at +971-4-3636888 or drop an email with your query at customer.relationship@trk.pcfc.ae"
   utter_age:
     - text: "There is no maximum age for applying the visa."
-    
+  utter_ask_for_authorization:
+    - text: "Do you own license or have authorization from its owner?"
+  utter_you_cannot_cancel:
+    - text: "You can't cancel license unless you are owner or have authorization from its owner."
+  utter_ask_license_type:
+    - text: "Is it freezone license, company license or commerical license ?"
+  utter_ask_company_type:
+    - text: "Is it under local law comapny or a branch company in UAE ?"
+  utter_freezone_cancelation_requirments:
+    - text: "The requirements for cancellation of Freezone license are as follows
+	1. All Visas are to be cancelled and cleared except the manager’s visa
+	2. Clearance letter from CLD Government section
+	3. Liquidation letter to be submitted by registered auditor in Dubai for FZE & FZCO
+	only.
+	4. All the duly fees and charges are to be settled.
+	5. Clearance letter from JAFZA (For companies transferred from JAFZA) to be
+	submitted.
+	6. Original License or copy if the license is expired
+	7. Cancel Establishment Card.
+	8. Original Certificate of Formation & share certificate or copy
+	9. Cancel bank account
+	10. Cancel lease contract under the company name.
+	11. NOC from the company to cancel the license."
+  utter_local_company_cancelation_requirments:
+    - text: "1. Registration & Licensing Application Form (Form No. BR/1)
+			2. Original License.
+			3. No-objection letter from Ministry of Labour & Immigration
+			4. Shareholders resolution to dissolve the Companies from the Notary Public
+			(for L.L.C companies)
+			5. Letter from the Dissolution Company for LL"
+  utter_branch_company_cancelation_requirments:
+    - text: "1. NOC letter from Mother Company
+			2. Registration & Licensing Application Form
+			3. Original License.
+			4. Original Certificate of Registration in the Commercial Register (if the head
+			office is registered in Dubai).
+			5. No-objection letter from Ministry of Labour & Immigration"
+  utter_commercial_cancelation_requirments:
+    - text: "First Step
+			1. Registration & Licensing Application Form
+			2. Duplicate of official document showing dissolution of the company,
+				appointment of a legal liquidator and mentioning his name and determining the
+				method of liquidation. This may either be by a resolution of the company’s
+				partners or general assembly duly notarized, or by court order.
+			3. Certified copy of the signature of company’s director(s), and the company’s
+				legal liquidator, as the case may be, authenticated by the Notary Public.
+			4. Original Certificate of Registration in the Commercial Register + the original
+				trade license.
+			5. Copy of the license of the liquidator + Certificate of condition auditor + Letter
+				from the liquidator approving the liquidation of the company.
+
+		Next Step
+			1. Certificates issued in the other Emirates indicating cancellation of license(s) (if
+				any).
+			2. Original copy of the final account of liquidation approved by the partners or
+				general assembly and stamped by the legal liquidator.
+			3. No-objection letter concerning cancellation issued by the Ministry of Labour &
+				Social Affairs.
+			4. Visa Cancellation of the partner(s) in case they are sponsored by their license.
+			5. Copy of the notice of the company’s dissolution & appointment of a liquidator
+			to be published in the official newspapers.
+			6. Letter from the partner for the agreement of the liquidation of the company."
+
 actions:
   - utter_greet
   - utter_complain
@@ -292,3 +360,11 @@ actions:
   - utter_dragon_mart
   - utter_vat_number
   - utter_age
+  - utter_ask_for_authorization
+  - utter_you_cannot_cancel
+  - utter_ask_license_type
+  - utter_ask_company_type
+  - utter_freezone_cancelation_requirments
+  - utter_local_company_cancelation_requirments
+  - utter_branch_company_cancelation_requirments
+  - utter_commercial_cancelation_requirments

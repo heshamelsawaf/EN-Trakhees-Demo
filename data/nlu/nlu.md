@@ -316,60 +316,25 @@
 - customer service
 - i want to talk to a human
 
-## intent:mood_confirm
+## intent:affirm
 - yes
+- yes sure
+- absolutely
+- for sure
+- yes yes yes
+- definitely
 - of course
 - sure
 - yeah
-- ok
-- cool
-- go for it
 - yep
-- yep, will do thank you
-- I'm sure I will!
-- oh awesome!
-- Yes
-- accept
-- I accept
-- i accept
-- ok i accept
-- I changed my mind. I want to accept it
-- ok cool
-- alright
-- i will!
-- ok, I behave now
-- yop
-- oki doki
-- yes please
-- yes please!
-- jo
-- yep if i have to
-- amayzing
-- confirm
-- nice
-- coolio
 - definitely yes without a doubt
-- yas
 - yup
 - perfect
 - sure thing
-- absolutely
-- Oh, ok
-- Sure
-- hm, i'd like that
 - ja
 - sure!
-- yes i accept
-- Sweet
-- amazing!
-- how nice!
-- cool!
-- yay
-- yes accept please
-- great
-- oh cool
-- yes
-- fine
+- yes i am
+- yes, i do
 
 ## intent:out_of_scope
 - I want pizza
@@ -680,6 +645,79 @@
 - difference between sole establishment and freezone
 - What are the different types of licenses
 - What are different company licenses
+
+## intent:ask_to_cancel_visa
+- What is proceedings to cancel my license?
+- What is the requirments to stop my license?
+- What is the procedures to stop my license?
+- What is reqiured to abort my license?
+- What is the steps to abort my license?
+- What is the procedures to abort my license?
+- What is needed to stop my license?
+- What is the requirments to cancel my license?
+- What is reqiured to cancel my license?
+- What is needed to cancel my license?
+- What is reqiured to stop my license?
+- What is the steps to stop my license?
+- What is the procedures to cancel my license?
+- What is proceedings to stop my license?
+- What is the requirments to abort my license?
+- What is proceedings to abort my license?
+- What is needed to abort my license?
+- What is the steps to cancel my license?
+- Which steps are required to stop my license?
+- How could I cancel my license?
+- What should I do to abort my license?
+- How to stop my license?
+- What should I do to cancel my license?
+- How can I abort my license?
+- How to cancel my license?
+- How could I abort my license?
+- How can I stop my license?
+- Which steps are required to abort my license?
+- What should I do to stop my license?
+- How to abort my license?
+- How can I cancel my license?
+- How could I stop my license?
+- Which steps are required to cancel my license?
+
+## intent:freezone_license
+- freezone license
+- freezone
+- free zone
+- free zone license
+- it is a freezone license
+- the license is freezone
+- i have a freezone license
+
+## intent:company_license
+- company license
+- company
+- it is a company license
+- the license is company
+- i have a company license
+
+## intent:commercial_license
+- commercial license
+- commercial
+- it is a commercial license
+- the license is commercial
+- i have a commercial license
+
+## intent:local_company
+- under local law
+- company under local law
+- local law
+- local law company
+- It is under local law
+- the company is under local law
+
+## intent:branch_company
+- a branch company in UAE
+- a branch company
+- branch company
+- branch company in the united arab emirates
+- It's a branch company
 
 ## synonym:intent trakhees
 - trakees
