@@ -1,4 +1,9 @@
-language: "en"
+language: "ar"
 
-pipeline: spacy_sklearn
-
+pipeline:
+- name: "ner_farasa"
+- name: "lemma_farasa"
+- name: "intent_featurizer_count_vectors"
+- name: "intent_classifier_tensorflow_embedding"
+  intent_tokenization_flag: true
+  intent_split_symbol: "_"
