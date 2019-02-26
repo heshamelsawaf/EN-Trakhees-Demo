@@ -1,23 +1,8 @@
 ## trial_ar
 * greet_ar
-    - utter_ask_name2
+  - utter_ask_name
 * name_ar
-    - utter_greet2
-    - utter_introduce
-    - utter_help
+  - utter_greet
+  - utter_introduce
 * hamada_start_ar
-    - utter_info
-
-## greet_ar
-* greet_ar
-    - utter_ask_name2
-
-## help_ar
-* name_ar
-    - utter_greet2
-    - utter_introduce
-    - utter_help
-
-## info_ar
-* hamada_start_ar
-    - utter_info
+  - utter_info

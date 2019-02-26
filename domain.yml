@@ -11,21 +11,20 @@ slots:
     type: text
 
 templates:
-  utter_greet2:
+  utter_greet:
     - text: "مرحبا {PERS}"
-  utter_ask_name2:
+  utter_ask_name:
     - text: "مرحبا ما اسمك ؟"
   utter_introduce:
-    - text: "أنا حماده ؛ النسخة الناطقة بالعربية من راسا وهذه هى النسخة التجريبية الأولى "
+    - text: "أنا حماده؛ النسخة التجريبية الناطقة بالعربية من راسا"
   utter_help:
     - text: "كيف يمكننى مساعدتك ؟"
   utter_info:
     - text: "حماده هو مشروع تخرج بكلية الهندسة جامعة الإسكندرية تحت إشراف الأستاذ الدكتور خالد ناجى و مروان تمام وشركاه وهو عبارة عن بوت ناطق بالعربية يستخدم فراسة"
 
-
 actions:
-  - utter_greet2
-  - utter_ask_name2
-  - utter_introduce 
+  - utter_greet
+  - utter_ask_name
+  - utter_introduce
   - utter_help
   - utter_info
